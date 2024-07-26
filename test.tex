@@ -1,0 +1,114 @@
+%jsarticleから移行, 2024/3/3
+\documentclass{jlreq}
+\usepackage{luatexja}
+
+%-----グラフィック------------------------------------------------------
+
+%画像（xcolorつけたらjpgも表示された）なお画像ファイル名は英字にしないとエラーを吐くことに注意
+%\usepackage{graphicx, xcolor}
+%tcolorboxのおかげでgraphicx, xcolorが読み込まれる
+\usepackage{tcolorbox}
+%tikzライブラリ
+\usepackage{tikz}
+\usetikzlibrary{intersections,calc,arrows.meta,patterns}
+%ページまたぎを実現/拡張
+\tcbuselibrary{breakable,skins,theorems}
+%自分の, グレーの枠
+\newtcolorbox{mybox}{colframe=gray!25, colback=gray!25, sharp corners}
+%サブフォルダ内の図へのPATHを通す, {{}}内にフォルダ名を記入
+\graphicspath{{images}}
+
+
+%-----以下数式関係----------------------------------------------------
+
+% 数式, 米国数学会が開発したのがamsmath, フォントを使うためのパッケージがamssymbs, 何故かamsfontsまで履いていたので削除(2024/3/3追記)
+\usepackage{amsmath,amssymb}
+%定理環境、コピペ(2024/3/3)
+\usepackage{amsthm}
+\theoremstyle{definition}
+\newtheorem{dfn}{定義}
+\newtheorem{prop}{命題}
+\newtheorem{lem}{補題}
+\newtheorem{thm}{定理}
+\newtheorem{cor}{系}
+\newtheorem{rem}{注意}
+\newtheorem*{rem*}{注意}
+\newtheorem{fact}{事実}
+\newtheorem{e.g.}{例}
+\renewcommand{\qedsymbol}{$\blacksquare$}
+% 花文字?（2023/6/10追加）, RSFS, Ralph Smith's Formal Script(2024/3/3追記)
+\usepackage{mathrsfs}
+% 数式太文字
+\usepackage{bm}
+%proofカスタム
+\renewcommand{\proofname}{\textbf{証明}}
+%参照した数式にのみ数式番号を振ろう(2023/10/6)
+\usepackage{mathtools}
+\mathtoolsset{showonlyrefs=true}
+% 消えた項を明記（2023/7/26追加）
+\usepackage[thicklines]{cancel}
+
+
+%-----以下自然科学関係------------------------------------------------------
+
+%便利なので
+\usepackage{physics}
+%単位
+\usepackage{siunitx}
+%元素とか, 化学反応式とか
+\usepackage[version=4]{mhchem}
+
+
+%-----以下図表の配置関係------------------------------------------------------
+
+% 表の強制固定
+\usepackage{float}
+%captionに*つけて「図」を消す(2023/10/7)
+\usepackage{caption}
+
+
+%-----以下その他------------------------------------------------------
+
+% comment
+\usepackage{comment}
+%新出用語のためのマクロ, 2024/3/3, 美文書p.76-77
+\newcommand{\term}[1]{{\sffamily\bfseries #1}}
+
+
+%-----以下 hyperref 関係------------------------------------------------------
+\usepackage[
+setpagesize=false,%
+bookmarks=true,%
+bookmarksdepth=tocdepth,%
+bookmarksnumbered=true,%
+colorlinks=false,%
+allcolors=blue%
+pdftitle={},%
+pdfsubject={},%
+pdfauthor={Yuichi Mori},%
+pdfkeywords={}%
+]{hyperref}
+\hypersetup{
+colorlinks=true,
+citecolor=green,
+linkcolor=blue,
+urlcolor=orange,
+}
+
+%------------------------------------------------------------------------------
+
+
+\begin{document}
+
+\title{}
+\author{森}
+\date{\today}
+\maketitle
+
+
+
+
+\begin{thebibliography}{99}
+\bibitem{sample}
+\end{thebibliography}
+\end{document}
