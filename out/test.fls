@@ -603,3 +603,5 @@ INPUT /Users/yuichimori/TeXLive/texmf-var/luatexja/extra_lmsans12-regular.luc
 INPUT /Users/Shared/TeXLive/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-bold.luc
 INPUT /Users/yuichimori/TeXLive/texmf-var/luatexja/extra_lmsans10-bold.luc
 INPUT /Users/Shared/TeXLive/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT out/test.aux
+INPUT out/test.out

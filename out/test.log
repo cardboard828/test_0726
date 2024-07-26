@@ -1211,4 +1211,53 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 107.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 8.0pt on input line 107.
-LaTeX Font I
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 6.0pt on input line 107.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 12.0pt on input line 107.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 8.0pt on input line 107.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 6.0pt on input line 107.
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 14.0pt on input line 121.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 14.0pt on input line 121.
+(load cache: extra_lmsans12-regular.luc)
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 14.0pt on input line 121.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 14.0pt on input line 121.
+(load cache: extra_lmsans10-bold.luc)
+LaTeX Font Info:    Font shape `JT3/gt/b/n' in size <14> not available
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 121.
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 14.0pt on input line 121.
+LaTeX Font Info:    Font shape `JY3/gt/b/n' in size <14> not available
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 121.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 14.0pt on input line 121.
+[1
+
+{/Users/Shared/TeXLive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./out/test.aux)
+Package rerunfilecheck Info: File `test.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 34635 strings out of 479059
+ 125244,1144653 words of node,token memory allocated
+ 2275 words of node memory still in use:
+   11 hlist, 2 vlist, 6 rule, 2 glue, 4 kern, 2 glyph, 653 attribute, 100 glue_spec, 45 attribute_list, 2 write, 22 user_defined nodes
+   avail lists: 1:8,2:5948,3:83,4:137,5:49,6:30,7:736,8:9,9:280,10:5,11:3
+ 52690 multiletter control sequences out of 65536+600000
+ 118 fonts using 76852339 bytes
+ 121i,6n,118p,1231b,734s stack positions out of 5000i,500n,10000p,200000b,200000s
+</Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></Users/Shared/TeXLive/texmf/fonts/opentype/cjk-gs-integrate/HaranoAjiGothic-Medium.otf></Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></Applications/TeXLive/Library/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></Users/Shared/TeXLive/texmf/fonts/opentype/cjk-gs-integrate/HaranoAjiMincho-Regular.otf>
+Output written on test.pdf (1 page, 21326 bytes).
+
+PDF statistics: 52 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
+ 3 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 100000000)
+
